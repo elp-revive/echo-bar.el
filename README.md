@@ -2,8 +2,9 @@
 [![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/echo-bar.svg)](https://jcs-emacs.github.io/jcs-elpa/#/echo-bar)
 
 # echo-bar.el
+> Display a custom status at the end of the echo area
 
-Display a custom status at the end of the echo area
+[![CI](https://github.com/elp-revive/echo-bar.el/actions/workflows/test.yml/badge.svg)](https://github.com/elp-revive/echo-bar.el/actions/workflows/test.yml)
 
 ## Customization
 
