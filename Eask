@@ -2,7 +2,7 @@
          "1.0.0"
          "Turn the echo area into a custom status bar")
 
-(website-url "https://github.com/qaiviq/echo-bar.el")
+(website-url "https://github.com/elp-revive/echo-bar.el")
 (keywords "convenience" "tools")
 
 (package-file "echo-bar.el")
