@@ -1,11 +1,13 @@
 ;;; echo-bar.el --- Turn the echo area into a custom status bar  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2021-2022  Adam Tillou
+;; Copyright (C) 2025  Jen-Chieh Shen
 
 ;; Author: Adam Tillou <qaiviq@gmail.com>
+;; Maintainer: Jen-Chieh Shen <jcs090218@gmail.com>
 ;; Keywords: convenience, tools
 ;; Version: 1.0.0
-;; Homepage: https://github.com/qaiviq/echo-bar.el
+;; Homepage: https://github.com/elp-revive/echo-bar.el
 
 ;; Note: This package will work without lexical binding, so there is no
 ;; Emacs 24 requirement.
