@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "echo-bar"
          "1.0.0"
          "Turn the echo area into a custom status bar")
