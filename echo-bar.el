@@ -241,13 +241,13 @@ overlays."
     (push new-overlay echo-bar-overlays)
     new-overlay))
 
-(defun echo-bar--minibuffer-setup ()
+(defun echo-bar--minibuffer-setup (&rest _)
   "Setup the echo bar in the minibuffer."
   (when echo-bar-minibuffer
     (overlay-put (echo-bar--new-overlay t) 'priority 1)
     (echo-bar-update)))
 
-(defun echo-bar-update ()
+(defun echo-bar-update (&rest _)
   "Get new text to be displayed from `echo-bar-default-function`."
   (interactive)
   (when echo-bar-mode
