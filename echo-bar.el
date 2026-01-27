@@ -192,8 +192,9 @@ If nil, don't update the echo bar automatically."
            ;; Maximum length for the echo area message before wrap to next line
            (max-len (- (frame-width) wid 5))
            ;; Align the text to the correct width to make it right aligned
-           (spc (propertize " " 'cursor 1 'display
-                            `(space :align-to (- right-fringe ,wid)))))
+           (spc (propertize " "
+                            'cursor 1
+                            'display `(space :align-to (- right-fringe ,wid)))))
 
       (setq echo-bar-text (concat spc text))
 
